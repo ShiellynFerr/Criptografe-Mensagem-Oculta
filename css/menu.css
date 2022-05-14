@@ -1,0 +1,82 @@
+.bg-header {
+    background-image: url("../img/redes.jpg");
+ }
+ 
+ .header{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     align-items: center;
+     font-family: 'Space Mono', monospace;
+ }
+ 
+ .header h1 {
+     font-family: 'Space Mono', monospace;
+     margin-left: 5px;
+     letter-spacing: 3px;
+     color: #fff;
+ }
+ 
+ .menu {
+     display: flex;
+     padding: 20px 20px;
+     gap: 30px;
+     cursor: pointer;
+     color: #fff;
+ }
+ .menu li {
+     font-size: 20px;
+ }
+ 
+ @media(max-width: 1024px) {
+     .header{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+     }
+     .menu {
+         display: flex;
+         padding: 10px 10px;
+         gap: 20px;
+         cursor: pointer;
+         color: #fff;
+     }
+     .menu li {
+         font-size: 18px;
+     }
+ }
+ 
+ @media(max-width: 769px) {
+     .header{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+     }
+     .menu {
+         display: flex;
+         padding: 10px 10px;
+         gap: 20px;
+         cursor: pointer;
+         color: #fff;
+     }
+ }
+ 
+ @media(max-width: 540px) {
+     .header{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+     }
+     .menu {
+         display: flex;
+         padding: 10px 10px;
+         gap: 20px;
+         cursor: pointer;
+         color: #fff;
+     }
+ 
+     .menu li {
+         font-size: 16px;
+     }
+ }
+ 
