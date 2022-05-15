@@ -1,5 +1,7 @@
 .bg-header {
-    background-image: url("../img/redes.jpg");
+    background-image: url("../img/codigos.jpg");
+    background-position: unset;
+    
  }
  
  .header{
@@ -27,12 +29,14 @@
  .menu li {
      font-size: 20px;
  }
+
+ /* Adicionando Responsividade na Header */
  
  @media(max-width: 1024px) {
      .header{
          display: flex;
          flex-wrap: wrap;
-         justify-content: space-evenly;
+         justify-content: space-between;
      }
      .menu {
          display: flex;
@@ -46,37 +50,4 @@
      }
  }
  
- @media(max-width: 769px) {
-     .header{
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: space-between;
-     }
-     .menu {
-         display: flex;
-         padding: 10px 10px;
-         gap: 20px;
-         cursor: pointer;
-         color: #fff;
-     }
- }
- 
- @media(max-width: 540px) {
-     .header{
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: space-between;
-     }
-     .menu {
-         display: flex;
-         padding: 10px 10px;
-         gap: 20px;
-         cursor: pointer;
-         color: #fff;
-     }
- 
-     .menu li {
-         font-size: 16px;
-     }
- }
  
