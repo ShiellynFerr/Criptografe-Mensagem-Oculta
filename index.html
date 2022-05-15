@@ -19,5 +19,45 @@
          </ul>
      </nav>
     </header>
+
+    <section class="section-form">
+     <div class="div-form">
+         <form class="form" action="">
+             <h1 class="text-aling">Encrypted</h1>
+             <p  class="text-aling p1">Cripitopgrafe suas mensagens e se comunique com segurança!</p>
+             <p  class="text-aling p2">Escolha sua opção para criptografar.</p>
+
+             <div class="textarea">
+                <textarea name="user-text" id="write-msg" cols="30" rows="10" placeholder="Escreva sua mensagem aqui"></textarea>
+                <textarea name="user-text" id="encrypted-msg" cols="30" rows="10" placeholder="Sua mensagem codificada"></textarea>
+            </div>
+
+        <div class="container-select-radio">
+           <div class="box-select">
+              <select name="select" id="select" class="select">
+                 <option value="option" selected >Escolha sua opção</option>
+                 <option value="cesar">Cifra de césar</option>
+                 <option value="base64">Base64</option>
+             </select>
+           </div>
+
+          <div class="box-radio">
+             <input type="radio" value="codificar" name="choice">
+             <label for="choice">Codificar</label>
+             <input type="radio" value="decodificar" name="choice">
+             <label for="choice">Decodificar</label>
+            </div>
+             
+         </div>
+             
+         </form>
+
+         <button class="button-encrypted">Codificar</button>
+
+     </div>
+
+    </section>
+
+   
 </body>
 </html>
