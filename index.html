@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
     <title>Encrypted</title>
 </head>
 <body class="bg-body">
@@ -41,10 +42,16 @@
              </select>
            </div>
 
-          <div class="box-radio">
-             <input type="radio" value="codificar" name="choice">
+           <div class="steps" id="steps">
+            <label>Quantidade de passos:</label>
+            <input class="rangeStyle" id="rangeInput" type="range" min="0" max="15"  value="2"/>
+            <output  id="result">2</output>
+           </div>
+
+          <div class="box-radio" id="box-radio">
+             <input type="radio" id="code" value="codificar" name="choice">
              <label for="choice">Codificar</label>
-             <input type="radio" value="decodificar" name="choice">
+             <input type="radio" id="decode" value="decodificar" name="choice">
              <label for="choice">Decodificar</label>
             </div>
              
@@ -52,7 +59,7 @@
              
          </form>
 
-         <button class="button-encrypted">Codificar</button>
+         <button class="button-encrypted" id="buttonEncrypted" onclick="btnEncrypted()">Codificar</button>
 
      </div>
 
