@@ -32,9 +32,9 @@ Em criptografia, a Cifra de César, também conhecida como cifra de troca, códi
   - <h2>Curiosidade</h2>
   <br>
   
-```
-  O Imperador Julio Cesar teria criado um sistema de substituição mais elaborado do que simplesmente trocando as letras romanas por gregas, ele teria deslocado as letras do alfabeto e substituindo cada letra pela outra deslocada O nome do método é em homenagem a ele, que o usou para se comunicar com os seus generais.
-```
+
+    O Imperador Julio Cesar teria criado um sistema de substituição mais elaborado do que simplesmente trocando as letras romanas por gregas, ele teria deslocado as letras do alfabeto e substituindo cada letra pela outra deslocada O nome do método é em homenagem a ele, que o usou para se comunicar com os seus generais.
+
 <hr>
 
 ##  Base64
@@ -46,9 +46,9 @@ O Base64 é um método muito utilizado na internet para a codificação de dados
   
 -> <strong>Origem do nome</strong> <-
 
-```
-Inicialmente, o algoritmo foi nomeado como “printable encoding” e somente após alguns anos, em Junho de 1992, a RFC definiu como Base64. E o sufixo 64 se deve ao fato do algoritmo ser baseado em 64 carácteres (64 basic characters).
-```
+
+  
+    Inicialmente, o algoritmo foi nomeado como “printable encoding” e somente após alguns anos, em Junho de 1992, a RFC definiu como Base64. E o sufixo 64 se deve ao fato do algoritmo ser baseado em 64 carácteres (64 basic characters).
 
 # Documentações e Referências
 
@@ -72,7 +72,7 @@ Algumas documentações e sites que consultei durante o processo de desenvolvime
 
 <img src="img/encrypted.png">
 
-<br>
+
 
 # Teste aqui 
 
